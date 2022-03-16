@@ -16,8 +16,9 @@ export default function StartPage () {
       <Text style={styles.text}>{config.appTagline}</Text>
       <VideoPlayer
         videoUrl='https://drive.google.com/uc?export=download&id=1hyYRm-9Tl43HeKuBQJPRPYfqe5P-oert'
-        
+
       />
+      <Text style={styles.text}> Más informacion en https://www.apicazorla.com</Text>
     </Page>
   )
 }
