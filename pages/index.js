@@ -11,8 +11,8 @@ import { config } from '../config/config'
 export default function StartPage () {
   return (
     <Page>
-      <H1 style={styles.h1}>Heading H1</H1>
-      <Text style={styles.text}>This is {config.appName} running</Text>
+      <H1 style={styles.h1}>Tarritos de miel para eventos</H1>
+      <Text style={styles.text}>Es un producto de {config.appName} </Text>
       <Text style={styles.text}>{config.appTagline}</Text>
       <VideoPlayer
         videoUrl='https://drive.google.com/uc?export=download&id=1hyYRm-9Tl43HeKuBQJPRPYfqe5P-oert'
