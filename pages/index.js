@@ -1,6 +1,6 @@
 import React from 'react'
 // @generated: @expo/next-adapter@2.1.5
-import { StyleSheet, Text } from 'react-native'
+import { StyleSheet,Text} from 'react-native'
 
 import Page from '../components/page/Page'
 import { H1 } from '../components/webElements'
@@ -11,14 +11,14 @@ import { config } from '../config/config'
 export default function StartPage () {
   return (
     <Page>
-      <H1 style={styles.h1}>Tarritos de miel para eventos</H1>
-      <Text style={styles.text}>Es un producto de {config.appName} </Text>
+      <H1 style={styles.h1}>Escutoides de miel</H1>
+      <Text style={styles.text}>Es un producto de {config.appName}</Text>
       <Text style={styles.text}>{config.appTagline}</Text>
       <VideoPlayer
-        videoUrl='https://fisicayquimica2.s3.eu-west-3.amazonaws.com/tarritos-de-miel.mp4'
+        videoUrl='https://fisicayquimica2.s3.eu-west-3.amazonaws.com/escutoides.mp4'
       />
-      <Text style={styles.text}> Más informacion en</Text>
-      <Text style={styles.text}> www.apicazorla.com</Text>
+      <Text style={styles.text}>Más información en</Text>
+      <Text style={styles.text}>www.apicazorla.com/post/getting-started.</Text>
     </Page>
   )
 }
@@ -35,4 +35,4 @@ const styles = StyleSheet.create({
     marginTop: 12,
     marginBottom: 12
   }
-})
+  })
