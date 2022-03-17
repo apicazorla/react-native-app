@@ -15,7 +15,7 @@ export default function StartPage () {
       <Text style={styles.text}>Es un producto de {config.appName} </Text>
       <Text style={styles.text}>{config.appTagline}</Text>
       <VideoPlayer
-        videoUrl='https://fisicayquimica2.s3.eu-west-3.amazonaws.com/tarritos-miel-1.png'
+        videoUrl='https://fisicayquimica2.s3.eu-west-3.amazonaws.com/tarritos-miel-1.mp4'
       />
       <Text style={styles.text}> Más informacion en</Text>
       <Text style={styles.text}> www.apicazorla.com</Text>
